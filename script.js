@@ -34,7 +34,7 @@ function Start() {
             0: '0049'
         }[condition] + phone.substring(1);
         btn.value = 'Stop';
-        connect();
+        checknummer();
         setTimeout(() => setStatus('#regStatus', 'Clicking circles @ osu.ppy.sh/u/oSumAtrIX'), 4096);
     }
 }
